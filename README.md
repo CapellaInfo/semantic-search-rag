@@ -74,7 +74,7 @@ These vectors are stored in a vector database like Pinecone or FAISS, where we c
 
 🛠 Setup
 ```
-pip install openai pinecone-client faiss-cpu fastapi uvicorn
+pip install -r requirements.txt
 ```
 
 Create a .env file or set your API keys manually:
@@ -83,7 +83,11 @@ OPENAI_API_KEY=sk-...
 PINECONE_API_KEY=pcsk-...
 ```
 
-🤖 Author
+## Visualização da API
+
+Abaixo está um print da aplicação FastAPI com os endpoints `/upload` e `/ask`:
+
+![FastAPI com dois endpoints](endpoints.png)
+
+Author
 Created by @rafael.moura – Data & AI enthusiast 🚀
-
-
